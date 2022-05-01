@@ -4,8 +4,8 @@ import * as dashboardActions from "../../store/actions/dashboardActions";
 import * as webRTCHandler from "../webRTC/webRTCHandler";
 import * as webRTCGroupCallHandler from "../webRTC/webRTCGroupCallHandler";
 
-// HERE PLACE ADDRESS OF YOUR HOSTED BACKEND SERVER
-const SERVER = "https://video-talker-backend-udemy2.herokuapp.com/";
+// 堂 HERE PLACE ADDRESS OF YOUR HOSTED BACKEND SERVER
+const SERVER = "https://twilio-hub.glitch.me/";
 
 const broadcastEventTypes = {
   ACTIVE_USERS: "ACTIVE_USERS",

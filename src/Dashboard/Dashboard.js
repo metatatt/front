@@ -16,10 +16,10 @@ import "./Dashboard.css";
 
 const Dashboard = ({ username, callState }) => {
   useEffect(() => {
-    // HERE PLACE YOUR BACKEND SERVER ADDRESS TO FETCH TURN CREDENTIALS
+    // 堂 HERE PLACE YOUR BACKEND SERVER ADDRESS TO FETCH TURN CREDENTIALS
     axios
       .get(
-        "https://video-talker-backend-udemy.herokuapp.com/api/get-turn-credentials"
+	  "https://twilio-hub.glitch.me/api/get-turn-credentials"
       )
       .then((responseData) => {
         console.log(responseData);
